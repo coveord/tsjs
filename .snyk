@@ -1,0 +1,34 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - stylelint-config-rational-order > stylelint > postcss-reporter > lodash:
+        patched: '2019-07-03T21:16:03.301Z'
+    - lodash:
+        patched: '2019-07-03T21:16:03.301Z'
+    - stylelint-config-rational-order > stylelint-order > lodash:
+        patched: '2019-07-03T21:16:03.301Z'
+    - stylelint-config-rational-order > stylelint > lodash:
+        patched: '2019-07-03T21:16:03.301Z'
+    - stylelint-order > postcss-sorting > lodash:
+        patched: '2019-07-03T21:16:03.301Z'
+    - stylelint-config-rational-order > stylelint > table > lodash:
+        patched: '2019-07-03T21:16:03.301Z'
+    - stylelint-config-rational-order > stylelint-order > postcss-sorting > lodash:
+        patched: '2019-07-03T21:16:03.301Z'
+    - stylelint-order > lodash:
+        patched: '2019-07-03T21:16:03.301Z'
+    - stylelint-config-rational-order > stylelint > postcss-jsx > @babel/core > lodash:
+        patched: '2019-07-03T21:16:03.301Z'
+    - stylelint-config-rational-order > stylelint > postcss-jsx > @babel/core > @babel/generator > lodash:
+        patched: '2019-07-03T21:16:03.301Z'
+    - stylelint-config-rational-order > stylelint > postcss-jsx > @babel/core > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-03T21:16:03.301Z'
+    - stylelint-config-rational-order > stylelint > postcss-jsx > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-03T21:16:03.301Z'
+    - stylelint-config-rational-order > stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-03T21:16:03.301Z'
+    - stylelint-config-rational-order > stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-03T21:16:03.301Z'

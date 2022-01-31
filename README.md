@@ -222,8 +222,8 @@ Since this part appeared to have a more educational purpose, you can refer to th
     ```typescript
     // bad
     const bad: Interface = {
-        foo: 3,
-        bar: 4,
+        'foo': 3,
+        'bar': 4,
         'data-blah': 5,
     };
 

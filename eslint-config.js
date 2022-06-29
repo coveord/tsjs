@@ -4,7 +4,12 @@ module.exports = {
     },
     parser: '@typescript-eslint/parser',
     plugins: ['@typescript-eslint', 'import', 'jsdoc', 'react', 'prefer-arrow', 'react-hooks', 'unused-imports'],
-    extends: ['plugin:prettier/recommended', 'prettier/@typescript-eslint', 'prettier/react'],
+    extends: ['plugin:react/jsx-runtime', 'plugin:prettier/recommended', 'prettier'],
+    settings: {
+        react: {
+            version: 'detect',
+        },
+    },
     rules: {
         'react-hooks/rules-of-hooks': 'error',
         'react-hooks/exhaustive-deps': 'off',
@@ -185,7 +190,7 @@ module.exports = {
             },
         ],
         'use-isnan': 'error',
-        'no-unused-vars': 'off',
+        '@typescript-eslint/no-unused-vars': 'off',
         'unused-imports/no-unused-imports': 'error',
         'unused-imports/no-unused-vars': [
             'warn',

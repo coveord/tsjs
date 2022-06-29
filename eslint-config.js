@@ -161,12 +161,8 @@ module.exports = {
         'no-multiple-empty-lines': 'off',
         'no-new-wrappers': 'error',
         'no-redeclare': 'error',
-        'no-shadow': [
-            'error',
-            {
-                hoist: 'all',
-            },
-        ],
+        'no-shadow': 'off',
+        '@typescript-eslint/no-shadow': ['error'],
         'no-trailing-spaces': 'off',
         'no-undef-init': 'error',
         'no-underscore-dangle': 'error',

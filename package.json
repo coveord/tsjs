@@ -1,6 +1,6 @@
 {
     "name": "tsjs",
-    "version": "5.0.1",
+    "version": "6.0.0",
     "description": "A mostly reasonable approach to TypeScript and JavaScript.",
     "scripts": {
         "test": "node -e 'console.log(\"No script added yet, add one.\");'",
@@ -15,9 +15,9 @@
         "@typescript-eslint/eslint-plugin": "^6.2.1",
         "@typescript-eslint/parser": "^6.2.1",
         "eslint": "^8.18.0",
-        "eslint-config-prettier": "^8.5.0",
+        "eslint-config-prettier": "^9.1.0",
         "eslint-plugin-import": "^2.26.0",
-        "eslint-plugin-jsdoc": "^39.3.3",
+        "eslint-plugin-jsdoc": "^48.0.2",
         "eslint-plugin-prefer-arrow": "^1.2.3",
         "eslint-plugin-prettier": "^5.0.0",
         "eslint-plugin-react": "^7.30.1",
@@ -25,17 +25,17 @@
         "eslint-plugin-unused-imports": "^3.0.0",
         "stylelint-config-rational-order": "^0.1.2",
         "stylelint-order": "^6.0.3",
-        "stylelint-prettier": "^4.0.2"
+        "stylelint-prettier": "^5.0.0"
     },
     "peerDependencies": {
         "prettier": "^3.0.1",
-        "stylelint": "^15.10.2"
+        "stylelint": "^16.1.0"
     },
     "devDependencies": {
         "husky": "^4.2.5",
         "lint-staged": "^13.2.3",
         "prettier": "^3.0.1",
-        "stylelint": "15.10.2",
+        "stylelint": "16.1.0",
         "typescript": "^4.9"
     },
     "prettier": "./prettier-config.js",
